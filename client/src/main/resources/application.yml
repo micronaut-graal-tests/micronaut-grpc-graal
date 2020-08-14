@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: grpcGraal
+grpc:
+  server:
+    enabled: false
+  client:
+    plaintext: true
+#  channels:
+#    greeter:
+#      address: 'localhost:50500'
+#      plaintext: true
+#      max-retry-attempts: 10
