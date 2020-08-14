@@ -11,7 +11,6 @@ public class GreeterClient {
 
     @Singleton
     GreeterGrpc.GreeterBlockingStub blockingStub(@GrpcChannel("localhost:50051") Channel channel) {
-        System.out.println("==================== GreeterClient.blockingStub ====================");
         return GreeterGrpc.newBlockingStub(channel);
     }
 
