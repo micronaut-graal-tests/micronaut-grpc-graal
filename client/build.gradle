@@ -34,8 +34,6 @@ dependencies {
     implementation("io.micronaut:micronaut-runtime")
     implementation("io.micronaut.grpc:micronaut-grpc-runtime")
 
-//    implementation("io.micronaut.grpc:micronaut-grpc-client-runtime")
-
     implementation("io.micronaut:micronaut-http-server-netty")
 
     runtimeOnly("ch.qos.logback:logback-classic")
