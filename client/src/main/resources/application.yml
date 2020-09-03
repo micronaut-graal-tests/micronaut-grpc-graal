@@ -1,6 +1,0 @@
-micronaut:
-  application:
-    name: grpcGraal
-grpc:
-  client:
-    plaintext: true

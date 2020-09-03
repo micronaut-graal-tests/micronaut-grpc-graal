@@ -1,6 +1,0 @@
-applicationType: grpc
-defaultPackage: micronaut.example
-testFramework: junit
-sourceLanguage: java
-buildTool: gradle
-features: [app-name, docker, file-watch, graalvm, gradle, grpc, java, java-application, junit, logback, readme, shade, yaml]

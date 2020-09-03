@@ -1,5 +1,0 @@
-rootProject.name="micronaut-grpc-graal"
-
-include "server"
-include "client"
-
