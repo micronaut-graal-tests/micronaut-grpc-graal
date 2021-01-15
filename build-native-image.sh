@@ -1,5 +1,7 @@
-./gradlew server:assemble && \
-native-image --no-fallback --class-path server/build/libs/server-*-all.jar && \
+#!/bin/bash
 
-./gradlew client:assemble && \
-native-image --no-fallback --class-path client/build/libs/client-*-all.jar
+./gradlew client:nativeImage && \
+cp client/build/native-image/grpc-client . && \
+
+./gradlew server:nativeImage && \
+cp server/build/native-image/grpc-server .
