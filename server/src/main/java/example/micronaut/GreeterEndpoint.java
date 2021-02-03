@@ -1,6 +1,9 @@
-package micronaut.example;
+package example.micronaut;
 
 import io.grpc.stub.StreamObserver;
+import micronaut.example.GreeterGrpc;
+import micronaut.example.HelloRequest;
+import micronaut.example.HelloResponse;
 
 import javax.inject.Singleton;
 

@@ -1,8 +1,11 @@
-package micronaut.example;
+package example.micronaut;
 
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
+import micronaut.example.GreeterGrpc;
+import micronaut.example.HelloRequest;
+import micronaut.example.HelloResponse;
 
 @Controller("/hello")
 public class HelloController {

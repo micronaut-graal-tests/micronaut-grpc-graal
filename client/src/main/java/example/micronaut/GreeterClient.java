@@ -1,8 +1,9 @@
-package micronaut.example;
+package example.micronaut;
 
 import io.grpc.Channel;
 import io.micronaut.context.annotation.Factory;
 import io.micronaut.grpc.annotation.GrpcChannel;
+import micronaut.example.GreeterGrpc;
 
 import javax.inject.Singleton;
 

@@ -1,4 +1,4 @@
-package micronaut.example;
+package example.micronaut;
 
 import javax.inject.Singleton;
 
