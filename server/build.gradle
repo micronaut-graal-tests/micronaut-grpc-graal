@@ -61,5 +61,4 @@ protobuf {
 
 nativeImage {
     imageName("grpc-server")
-    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
