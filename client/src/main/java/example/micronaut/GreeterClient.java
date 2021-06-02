@@ -3,9 +3,8 @@ package example.micronaut;
 import io.grpc.Channel;
 import io.micronaut.context.annotation.Factory;
 import io.micronaut.grpc.annotation.GrpcChannel;
+import jakarta.inject.Singleton;
 import micronaut.example.GreeterGrpc;
-
-import javax.inject.Singleton;
 
 @Factory
 public class GreeterClient {

@@ -1,11 +1,10 @@
 package example.micronaut;
 
 import io.grpc.stub.StreamObserver;
+import jakarta.inject.Singleton;
 import micronaut.example.GreeterGrpc;
 import micronaut.example.HelloRequest;
 import micronaut.example.HelloResponse;
-
-import javax.inject.Singleton;
 
 @Singleton
 public class GreeterEndpoint extends GreeterGrpc.GreeterImplBase {
