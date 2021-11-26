@@ -1,7 +1,7 @@
 #!/bin/bash
 
-./gradlew client:nativeImage && \
-cp client/build/native-image/grpc-client . && \
+./gradlew client:nativeCompile && \
+cp client/build/native/nativeCompile/grpc-client . && \
 
-./gradlew server:nativeImage && \
-cp server/build/native-image/grpc-server .
+./gradlew server:nativeCompile && \
+cp server/build/native/nativeCompile/grpc-server .
